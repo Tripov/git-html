@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "CoffeShop"
+		},
+		{
+			"path": "Kefteme"
+		},
+		{
+			"path": "SaaS"
+		},
+		{
+			"path": "Best luxary cars"
+		},
+		{
+			"path": "frame"
+		},
+		{
+			"path": "НЕФТЕКОР"
+		},
+		{
+			"path": "Bonus"
+		},
+		{
+			"path": "Practica"
+		},
+		{
+			"path": "maketHM"
+		},
+		{
+			"path": "VIAR"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Best luxary cars"
+	}
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body{
+    font: 400 18px 'Open Sans', Arial, sans-serif;
+}
+
+.container{
+    max-width: 1328px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+p{
+    color: #000000;
+    line-height: 1.21;
+}
+
+#header{
+    padding-top: 25px;
+    background-image: url(/home/tolyanchik/VIAR/img/header__img.jpg);
+    background-size: cover;
+    background-position: center;
+}

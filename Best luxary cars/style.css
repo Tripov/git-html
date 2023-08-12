@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    color: white;
+    background-color: #000;
+    font: 16px/28px 'Be Vietnam Pro', Arial, Helvetica, sans-serif;;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+
+ul li{
+    list-style: none    ;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button{
+    display: block;
+    border: none;
+    background-color:transparent;
+    font: inherit;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto ;
+    padding: 0 10px;
+}
+
+.title-section{
+    margin-bottom: 40px;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.primamary{
+    padding: 12px 24px;
+    font-weight: 600;
+    background-color: #EE8313;
+}
+
+.primamary:hover{
+    background-color: #af5d05;
+}
+
+.btn-secondary{
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #EE8313;
+    border: 1px solid#EE8313;
+    line-height: 26px;
+} 
+
+        /*Header start*/
+
+#header-section{
+    padding: 40px 0 107px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.header-logo__img{
+    width: 48px;
+    height: 48px;
+}
+
+.nav-main{
+    margin-left: auto;
+}
+
+.nav-main__list{
+    display: flex;
+    gap: 48px;
+    margin-right: 72px;
+}
+
+.nav-main__link:hover{
+    color: #EE8313;
+}
+
+        /*Banner*/
+
+#banner-section{
+    overflow: hidden;
+    position: relative;
+    padding-bottom:60px ;
+}
+
+.banner{
+    padding-top: 45px;
+    max-width: 475px;
+}
+
+.banner__header{
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+}
+
+.banner__text{
+    margin: 32px 0 48px;
+    font-size: 17px;
+    opacity:0.8;
+}
+
+.banner-links-wrap{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.bunner-features__text{
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.bunner-features__text:first-child{
+    margin-right: 40px;
+}
+
+.bunner-features__text_strong{
+    margin-right: 16px;
+    vertical-align: sub;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.banner-img{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.banner-img::before{
+    z-index: 2;
+    position: absolute;
+    content: '  ';
+    width: 95.5%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: url(/image/first-pick.png)no-repeat;
+}
+
+.banner-img::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(52 52 52/ 30%);
+}
+
+        /*Rent*/
+
+#rent-section{
+    padding: 120px 0 ;
+}
+
+.rent-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+.rent{
+    position: relative;
+    height:524px;font-weight: 600;
+
+    background: url(/image/first-luxr.png)50%/cover no-repeat;
+}
+
+.rent:nth-child(2){
+    background: url(/image/second.-luxr.png);
+}
+
+.rent:nth-child(3){
+    background: url(/image/third-luxr.png);
+}
+
+.rent:nth-child(4){
+    background: url(/image/titiri-luxr.png);
+}
+
+.rent__name{
+    position: absolute;
+    padding-top: 48px;
+    padding-left: 48px;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+}
+
+.rent__link{
+    position: absolute;
+    bottom: 48px;
+    padding-right: 30px;
+    right: 60px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+}
+
+.rent__link:hover{
+    color: #FFCC2C;
+}
+
+.rent__link::after{
+    position: absolute;
+    content: '';
+    top: 55%;
+    right: 0px;
+    width: 8px;
+    height: 16px;
+    background: url(/image/Стрелочка.png)50%/cover no-repeat;
+    transform: translateY(-50%);
+}
+
+        /*Serveces*/
+
+#service__section{
+    padding-bottom: 120px;
+}
+
+.service__section__title{
+    margin-bottom: 66px;
+    text-align: left;
+}
+
+.services__wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.sevices__img{
+    margin-bottom: 24px;
+}
+
+.services__title{
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.services__text{
+    opacity:0.8;
+}
+
+        /*Destion*/
+
+.destion__section{
+    padding-bottom: 162px;
+}
+
+.destion__section__title{
+    width: 590px;
+    margin: 0 auto 40px auto;
+}
+
+.destion__wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.destion{
+    background-color: #131313;
+    border: 1px solid #171717;
+}
+
+.destion__info{
+    padding: 24px 24px;
+    opacity: 0.8;
+}
+
+.destion__title{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.destion__text{
+    margin: 10px 0 25px;
+}
+
+.destion__price{
+    padding-left: 42px;
+    position: relative;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.destion__price::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    background: url(/image/Component-Front\ Car.png) no-repeat;
+    margin-bottom: 0;
+}
+
+.destion__limk{
+    color: #EE8313;
+
+}
+
+.destion__limk:hover{
+    color: #b75907;
+    
+}
+
+        /*Location*/
+
+.location-section{
+    padding-bottom: 102px;
+}
+
+        /*Footer*/
+
+#footer-section{
+    padding-top: 40px;
+    background-color: #1F1905;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:65px;
+}
+
+.footer__logo__wrap{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 64px;
+    font-weight: 600;
+}
+
+.footer__about__img{
+    width: 48px;
+    height: 48px;
+}
+
+.footer__about__text{
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 235px;
+}
+
+.footer__nav__wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-bottom: 40px 100px 0 auto;
+}
+
+.footer__nav__header{
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.footer__nav__item{
+    margin-bottom: 28px;
+    line-height: 20px;
+}
+
+.footer__nav__link{
+    opacity: 0.8;
+}
+
+.footer__nav__link:hover{
+    color: #EE8313 ;
+}
+
+.footer__social__link{
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin-bottom:45px;  
+    background: url(/image/social_1.svg)50%/cover no-repeat;
+}
+
+.footer__social__link:nth-child(2){
+    background-image: url(/image/social_2.svg);
+}
+
+.footer__social__link:nth-child(3){
+    background-image: url(/image/social_3.svg);
+}
+
+.footer__copyright{
+    background-color: #EE8313;
+    padding: 20px 0;
+}
+
+.copyright__text{
+    text-align: center;
+
+}
